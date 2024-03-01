@@ -1,7 +1,3 @@
-/** 
-* print comand-line parameters. 
-*/
-
 public class Main{
   /**
    * Program entry point
