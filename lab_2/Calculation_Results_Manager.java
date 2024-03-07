@@ -9,9 +9,9 @@ public class Calculation_Results_Manager {
         }
     }
 
-    public static ArrayList<CalculationResult> loadResults(String filename) throws IOException, ClassNotFoundException {
+    public static ArrayList<Calculation_Result> loadResults(String filename) throws IOException, ClassNotFoundException {
         try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(filename))) {
-            return (ArrayList<CalculationResult>) inputStream.readObject();
+            return (ArrayList<Calculation_Result>) inputStream.readObject();
         }
     }
 }

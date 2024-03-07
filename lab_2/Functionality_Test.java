@@ -1,3 +1,4 @@
+import domain.Calculation;
 import src.Calculation_Data;
 
 public class Functionality_Test {
