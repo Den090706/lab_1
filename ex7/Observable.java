@@ -13,7 +13,7 @@ public class Observable {
 
     public void notifyObservers() {
         for (Observer observer : observers) {
-            // Викликати метод спостерігача, який має бути визначений у класі, який реалізує анотацію Observer
+            // Викликати метод спостерігача, який має бути визначений у класі, який реалізує анотацію Observer_Annotation
             observer.update(this);
         }
     }
